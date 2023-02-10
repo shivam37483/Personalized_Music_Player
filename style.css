@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 4vh;
+    background-color: #222;
+    color: white;
+}
+body{
+    background-color: brown;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+ul li{
+    padding-right: 3vw;
+}
+
+.logo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    padding-right: 0.5vw;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    height: 74vh;
+    width: 70%;
+    margin: 2vh auto;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-image: url('img/back.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    */
+    padding: 3vh;
+}
+
+h1{
+    right: 90%;
+}
+
+.songlist{
+    height: 69vh;
+    width: 200%;
+    /* background-color: plum; */
+}
+
+.capsule{
+    background-color: white;
+    color: #222;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin: 2vh;
+}
+
+.capsule img{
+    margin-left: 1vw;
+    border-radius: 30px;
+}
+
+.time{
+    margin-right: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time i{
+    padding-left: 2vh;
+    cursor: pointer;
+}
+
+/* .container img{
+    margin-top: 3vh;
+} */
+
+.foot{
+    background-color: #222;
+    color: white;
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px; */
+}
+
+.icons{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 5vw;
+    color: white;
+    /* background-color: brown; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.songinfo img{
+    margin-left: 2vw;
+    opacity: 0;
+    transition: ease-in 0.4s;
+}
+
+#flow{
+    width: 35vw;
+    cursor: pointer;
+    margin: 1vh;
+}
+
+.bhy{
+    font-family: 'Font Awesome 5 Free';
+}
+
+.icon{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.songPame{
+    color: white;
+}
